@@ -1,0 +1,108 @@
+html {
+    scroll-padding-top: 40px; /* sticky nav won't hide stuff */
+}
+
+body {
+    font-family: arial;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: pink;
+}
+
+.wrapper {
+    margin:0 auto;
+    width:100%;
+    max-width: 620px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+article {
+    /* background-color: rgb(164, 174, 255); */
+    padding: 0px 0px;
+}
+
+section {
+    /* */ background-color: rgb(200, 85, 85);
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+
+article h1 {
+    font-size: 40px;
+}
+
+section h1 {
+    color: black;text-align: center;font-size: 30px;
+}
+
+#info table {
+    width:100%;
+}
+
+td.left {
+    width:25%;
+    text-align: right;
+}
+
+td.right {
+    width: 75%;
+    font-weight: bold;
+}
+
+nav.top {
+    /* */ background-color: white;
+    text-align: center;
+    width:100%;
+    position: sticky; top: 0;
+}
+
+nav.top table {
+    /* background-color: red; */
+    /* border:solid black 2px; */
+    margin: auto;
+    width:100%;
+}
+
+nav.top td {
+    /* border:solid red 2px; */
+}
+
+nav.top td a{
+    font-size: 20px;
+    line-height: 50px; /* must be LINE-height (to valign:middle; text) */
+    display:block; /* makes entire cell clickable */
+}
+
+nav.bottom {
+    /* */ background-color: white;
+    text-align: center;
+    width:100%;
+    position: sticky; bottom: 0;
+}
+
+nav.bottom table {
+    /* background-color: red; */
+    /* border:solid black 2px; */
+    margin: auto;
+    width:100%;
+}
+
+nav.bottom td {
+    /* border:solid red 2px; */
+    width: 33%;
+}
+
+nav.bottom td a{
+    font-size: 20px;
+    line-height: 50px; /* must be LINE-height (to valign:middle; text) */
+    display:block; /* makes entire cell clickable */
+}
