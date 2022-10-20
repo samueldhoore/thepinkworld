@@ -2,7 +2,7 @@
 /* Random Link */
 /******************************************************************/
 
-document.onload = reloadpage
+body.onload = reloadpage
 document.onclick = reloadpage;
 
 function reloadpage() {
