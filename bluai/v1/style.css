@@ -46,7 +46,7 @@ header {
 /* NAVIGATION */
 /*******************************************************/
 
-nav {
+nav.top {
     background-color: #acdceb;
     height: 3.5rem;
     margin-top: 3rem;
@@ -73,7 +73,7 @@ a.nav_list:hover {
 }
 
 
-nav.sticky {
+nav.top {
     /* background-color: white; */
     text-align: center;
     width:100%;
