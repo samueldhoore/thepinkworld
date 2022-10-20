@@ -81,11 +81,18 @@ nav.top {
 }
 
 nav.bottom {
-    /* */ background-color: pink;
-    text-align: center;
-    width:100%;
-    position: sticky; bottom: 0;
+    /* */ 
+    position: fixed; bottom: 0;
+    z-index: 1;
+    width: 100%;
 }
+
+.bottom_nav_img {
+    /*! float: left; */
+    width: 2rem;
+    display: inline;
+  }
+  
 
 /*******************************************************/
 /* SOCIALS */
@@ -115,12 +122,6 @@ p#about_text {
 /*******************************************************/
 /* FOOTER */
 /*******************************************************/
-footer.sticky {
-    /* background-color: white; */
-    text-align: center;
-    width:100%;
-    position: sticky; bottom: 0;
-}
 
 }
 
