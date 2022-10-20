@@ -73,26 +73,12 @@ a.nav_list:hover {
 }
 
 
-nav.top {
+nav {
     /* background-color: white; */
     text-align: center;
     width:100%;
     position: sticky; top: 0;
-}
-
-nav.bottom {
-    /* */ 
-    position: fixed; bottom: 0;
-    z-index: 1;
-    width: 100%;
-}
-
-.bottom_nav_img {
-    /*! float: left; */
-    width: 2rem;
-    display: inline;
-  }
-  
+}  
 
 /*******************************************************/
 /* SOCIALS */
