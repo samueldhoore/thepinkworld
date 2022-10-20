@@ -2,9 +2,9 @@
 /* Random Link */
 /******************************************************************/
 
-document.onclick = reloadpage;
+document.onclick = refresh;
 
-function reloadpage() {
+function refresh() {
     var sites = ['bluai', 'one', 'two'];
     var randomUrl = sites[Math.floor(Math.random() * sites.length )];
     window.open(randomUrl, "_self");
