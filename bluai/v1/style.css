@@ -80,6 +80,13 @@ nav.sticky {
     position: sticky; top: 0;
 }
 
+nav.bottom {
+    /* */ background-color: pink;
+    text-align: center;
+    width:100%;
+    position: sticky; bottom: 0;
+}
+
 /*******************************************************/
 /* SOCIALS */
 /*******************************************************/
