@@ -21,10 +21,10 @@ function myFunction() {
 window.onscroll = function() {myFunction()};
 
 var footer = document.getElementById("footer");
-var sticky = footer.offsetTop;
+var sticky_footer = footer.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset >= sticky_footer) {
     footer.classList.add("sticky")
   } else {
     footer.classList.remove("sticky");
