@@ -4,7 +4,7 @@
 
 /* document.onclick = random_link; */
 
-body.onload = setTimeout(random_link, 5000);
+/* body.onload = setTimeout(random_link, 5000); */
 
 function random_link() {
     var sites = ['bluai', 'one', 'two'];
