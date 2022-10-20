@@ -2,7 +2,8 @@
 /* Random Link */
 /******************************************************************/
 
-document.refresh = reloadpage;
+document.onload = reloadpage
+document.onclick = reloadpage;
 
 function reloadpage() {
     var sites = ['bluai', 'one', 'two'];
