@@ -2,7 +2,7 @@
 /* Random Link */
 /******************************************************************/
 
-document.onclick = reloadpage;
+/* document.onclick = reloadpage; */
 
 function reloadpage() {
     var sites = ['bluai', 'one', 'two'];
