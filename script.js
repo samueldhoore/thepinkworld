@@ -2,12 +2,10 @@
 /* Random Link */
 /******************************************************************/
 
-var sites = [
-    'bluai',
-    'http://www.youtube.com'
-];
+document.onclick = reloadpage;
 
-function randomSite() {
-    var i = parseInt(Math.random() * sites.length);
-    location.href = sites[i];
+function reloadpage() {
+    var sites = ['bluai', 'one', 'two'];
+    var randomUrl = sites[Math.floor(Math.random() * sites.length )];
+    window.open(randomUrl, "_self");
 }
