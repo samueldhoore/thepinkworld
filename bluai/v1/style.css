@@ -49,12 +49,14 @@ header {
 nav {
     background-color: #acdceb;
     height: 3.5rem;
+    margin-top: 3rem;
 }
 
 .nav_list {
     display: flex;
     justify-content: space-around;
     padding: 0;
+    margin: auto;
 }
 
 /* Make area around hyperlink clickable */
@@ -63,7 +65,13 @@ a.nav_list {
     position: relative;
     z-index: 1;
     padding: 1em 4em;
+    text-decoration: none;
 }
+
+a.nav_list:hover {
+    background-color: white;
+}
+
 
 nav.sticky {
     /* background-color: white; */
