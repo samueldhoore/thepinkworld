@@ -7,7 +7,7 @@
 /* body.onload = setTimeout(random_link, 5000); */
 
 function random_link() {
-    var sites = ['bluai', 'blond'];
+    var sites = ['/bluai', '/blond'];
     var randomUrl = sites[Math.floor(Math.random() * sites.length )];
     window.open(randomUrl, "_self");
 }
