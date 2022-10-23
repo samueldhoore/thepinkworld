@@ -69,6 +69,22 @@
         .pinknavigation_mobile {
             display: none;
         }
+    
+        .home {
+            display: none;
+        }
+
+        .pink_moon_desktop:hover .home {
+            display: block;
+        }
+    
+        .random_site {
+            display: none;
+        }
+
+        .pink_half_desktop:hover .random_site {
+            display: block;
+        }
 
     /**********************************************************************************************************************************/
 
