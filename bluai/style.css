@@ -1,129 +1,123 @@
-/*******************************************************/
-/* M O B I L E - V E R S I O N */
-/*******************************************************/
-/* mobile version */
-/*******************************************************/
+/**********************************************************************************************************************************/
+/* GENERAL */
+/**********************************************************************************************************************************/
+body {
+    margin: 0;
+}
 
-     /*******************************************************/
+
+@media only screen and (max-width:769px){
+/**********************************************************************************************************************************/
+/* MOBILE */
+/**********************************************************************************************************************************/
+    /* Pink Navigation */
+    /**********************************************************************************************************************************/
+
+        .pinknavigation_desktop {
+            display: none;
+        }
+
+    /**********************************************************************************************************************************/
+}
+
+@media only screen and (min-width:769px){
+/**********************************************************************************************************************************/
+/* DESKTOP */
+/**********************************************************************************************************************************/
+    /* Pink Navigation */
+    /**********************************************************************************************************************************/
+
+        .pinknavigation_mobile {
+            display: none;
+        }
+
+    /**********************************************************************************************************************************/
     /* GENERAL */
     /*******************************************************/
 
-    body {
-        margin: 0;
-    }
+        body {
+            /* background-image: url(https://bluaiband.files.wordpress.com/2022/08/background.png);
+            background-repeat: repeat; */
+            margin: auto;
+            font-family: courier new;
+            font-size: 1.1rem;
+        }
 
-
-@media only screen and (min-width: 768px) {
-/*******************************************************/
-/* D E S K T O P - V E R S I O N */
-/*******************************************************/
-/* desktop version */
-/*******************************************************/
-
-    /*******************************************************/
-    /* GENERAL */
-    /*******************************************************/
-
-    body {
-        /* background-image: url(https://bluaiband.files.wordpress.com/2022/08/background.png);
-        background-repeat: repeat; */
-        margin: auto;
-        font-family: courier new;
-        font-size: 1.1rem;
-    }
-
-    html {
-        scroll-padding-top: 40px; /* sticky nav won't hide stuff */
-    }
+        html {
+            scroll-padding-top: 40px; /* sticky nav won't hide stuff */
+        }
 
     /*******************************************************/
     /* HEADER */
     /*******************************************************/
 
-    header {
-        display: grid;
+        header {
+            display: grid;
 
-    }
+        }
 
-    .logo {
-        width: 20rem;
-        margin: 3rem auto 0.5rem;
-    }
+        .logo {
+            width: 20rem;
+            margin: 3rem auto 0.5rem;
+        }
 
     /*******************************************************/
     /* NAVIGATION */
     /*******************************************************/
 
-    nav.top {
-        background-color: #acdceb;
-        height: 3.5rem;
-        margin-top: 3rem;
-    }
+        nav.top {
+            background-color: #acdceb;
+            height: 3.5rem;
+            margin-top: 3rem;
+        }
 
-    .nav_list {
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-        margin: auto;
-    }
+        .nav_list {
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: auto;
+        }
 
-    /* Make area around hyperlink clickable */
-    a.nav_list {
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        padding: 1em 4em;
-        text-decoration: none;
-    }
+        /* Make area around hyperlink clickable */
+        a.nav_list {
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            padding: 1em 4em;
+            text-decoration: none;
+        }
 
-    a.nav_list:hover {
-        background-color: white;
-    }
+        a.nav_list:hover {
+            background-color: white;
+        }
 
 
-    nav {
-        /* background-color: white; */
-        text-align: center;
-        width:100%;
-        position: sticky; top: 0;
-    }  
-
-    /*******************************************************/
-    /* SOCIALS */
-    /*******************************************************/
+        nav {
+            /* background-color: white; */
+            text-align: center;
+            width:100%;
+            position: sticky; top: 0;
+        }  
 
     /*******************************************************/
     /* CONTENT */
     /*******************************************************/
 
-    article.about {
-        width: 50rem;
-        margin: 0 auto;
-    }
+        article.about {
+            width: 50rem;
+            margin: 0 auto;
+        }
 
-    h1#about_title {
-        text-align: center;
-    }
+        h1#about_title {
+            text-align: center;
+        }
 
-    img#about_pic {
-        width: 100%;
-    }
+        img#about_pic {
+            width: 100%;
+        }
 
-    p#about_text {
-        text-align: justify;
-    }
+        p#about_text {
+            text-align: justify;
+        }
 
-    /*******************************************************/
-    /* FOOTER */
-    /*******************************************************/
-
-}
-
-
-@media only screen and (min-width: 600px) {
-/*******************************************************/
-/* T A B L E T - V E R S I O N */
-/*******************************************************/
-/* tablet version */
-/*******************************************************/
 }
