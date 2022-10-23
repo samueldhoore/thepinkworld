@@ -8,39 +8,62 @@
 </head>
 <body>
   
-<!-- Pink Moon 1-->
-<div style=" position: fixed;display: grid; z-index: 2;padding: 0.5rem; bottom: 0;"><svg style="cursor:pointer;" height="2.4rem" width="2.4rem" onclick="location.href='/'">
-  <circle style="" fill="#04aa6d" r="1.2rem" cy="1.2rem" cx="1.2rem"></circle>
-  Sorry, your browser does not support inline SVG.  
-  </svg></div>
-<!-- Pink Moon 2 -->
-  <div style="bottom:20%; position: fixed;display: grid; z-index: 2;right: 0;"><svg onclick="random_link()" style="cursor:pointer;" height="5rem" width="2.5rem">
-  <circle style="" cy="2.5rem" r="2.5rem" cx="2.5rem" fill="#04aa6d"></circle>
-  Sorry, your browser does not support inline SVG.  
-  </svg></div>
+  <!-- Pink Navigation -->
+      <!-- Mobile -->
+      <div class="pinknavigation_mobile">
+        <!-- Pink Moon -->
+        <div style=" position: fixed;display: grid; z-index: 2;padding: 0.5rem; bottom: 0;">
+            <svg style="cursor:pointer;" height="2.4rem" width="2.4rem" onclick="location.href='/'">
+            <circle style="" fill="#acdceb" r="1.2rem" cy="1.2rem" cx="1.2rem"></circle>
+            Sorry, your browser does not support inline SVG.  
+            </svg>
+        </div>
+        <!-- Pink Half -->
+        <div style="bottom:20%; position: fixed;display: grid; z-index: 2;right: 0;"><svg onclick="random_link()" style="cursor:pointer;" height="5rem" width="2.5rem">
+            <circle style="" cy="2.5rem" r="2.5rem" fill="#acdceb" cx="2.5rem"></circle>
+            Sorry, your browser does not support inline SVG.  
+            </svg>
+        </div>
+    </div>
+    <!-- Desktop -->
+    <div class="pinknavigation_desktop" style="position: fixed;z-index: 2; margin-top: 10rem;">
+        <!-- Pink Moon -->
+        <div style=" display: grid; padding: 0.5rem; ">
+            <svg style="cursor:pointer;" height="2.4rem" width="2.4rem" onclick="location.href='/'">
+            <circle style="" fill="#acdceb" r="1.2rem" cy="1.2rem" cx="1.2rem"></circle>
+            Sorry, your browser does not support inline SVG.  
+            </svg>
+        </div>
+        <!-- Pink Half -->
+        <div style=" display: grid; "><svg onclick="random_link()" style="cursor:pointer;" height="5rem" width="2.5rem">
+            <circle style="" cy="2.5rem" r="2.5rem" fill="#acdceb" cx="0"></circle>
+            Sorry, your browser does not support inline SVG.  
+            </svg>
+        </div>
+    </div>
  
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="#home" class="active">BLOND</a>
-  <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#home" class="active">BLOND</a>
+    <div id="myLinks">
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
 
-<div style="padding-left:16px">
-  <h3>Vertical Mobile Navbar</h3>
-  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
-  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
-</div>
+  <div style="padding-left:16px">
+    <h3>Vertical Mobile Navbar</h3>
+    <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+    <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+  </div>
 
 
-<!-- script-->
-<script src="/script.js" async=""></script>
+  <!-- script-->
+  <script src="/script.js" async=""></script>
 
 
 </body>
