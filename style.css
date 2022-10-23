@@ -1,44 +1,59 @@
-
-html, body {
-    height: 100%;
-}
-
-.main {
-    height: 100%;
-    width: 100%;
-    display: table;
-    position: fixed;
-}
-
-.wrapper {
-    display: table-cell;
-    height: 100%;
-    /*! vertical-align: middle; */
-    /*! text-align: center; */
-    padding-top: 0.5rem;
-}
-
 /**********************************************************************************************************************************/
-/* General */
+/* MOBILE */
 /**********************************************************************************************************************************/
 
-body {
-    background-color: pink;
-    margin: 0;
+    html, body {
+        height: 100%;
+    }
+
+    .main {
+        height: 100%;
+        width: 100%;
+        display: table;
+        position: fixed;
+    }
+
+    .wrapper {
+        display: table-cell;
+        height: 100%;
+        /*! vertical-align: middle; */
+        /*! text-align: center; */
+        padding-top: 0.5rem;
+    }
+
+    /**********************************************************************************************************************************/
+    /* General */
+    /**********************************************************************************************************************************/
+
+    body {
+        background-color: pink;
+        margin: 0;
+    }
+
+    h1 {
+        font-family: arial;
+        font-size: 3rem;
+        color: white;
+        writing-mode: vertical-lr;
+        margin: 0;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    article {
+        padding: 3.5rem;
+    }
+
+@media only screen and (min-width: 768px) {
+/**********************************************************************************************************************************/
+/* DESKTOP */
+/**********************************************************************************************************************************/
 }
 
-h1 {
-    font-family: arial;
-    font-size: 3rem;
-    color: white;
-    writing-mode: vertical-lr;
-    margin: 0;
-}
-
-p {
-    text-align: justify;
-}
-
-article {
-    padding: 3.5rem;
+@media only screen and (min-width: 600px) {
+/**********************************************************************************************************************************/
+/* TABLET */
+/**********************************************************************************************************************************/
 }
