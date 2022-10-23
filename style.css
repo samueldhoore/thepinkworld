@@ -34,7 +34,7 @@ h1 {
     font-family: arial;
     font-size: 2rem;
     color: white;
-    writing-mode: vertical-lr;
+    writing-mode: sideways-rl;
     margin: 0rem 0.5rem;
     letter-spacing: -0.2rem;
     /*! word-spacing: 1rem; */
