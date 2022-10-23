@@ -42,49 +42,7 @@ body {
 /**********************************************************************************************************************************/
 /* GENERAL */
 /**********************************************************************************************************************************/
-    html, body {
-        height: 100%;
-    }
 
-    .main {
-        height: 100%;
-        width: 100%;
-        display: table;
-        position: fixed;
-    }
-
-    .wrapper {
-        display: table-cell;
-        height: 100%;
-        /* vertical-align: middle; */
-        /* text-align: center; */
-        /* padding-top: 0.5rem; */
-    }
-
-    body {
-        background-color: pink;
-        margin: 0;
-    }
-
-    h1 {
-        font-family: arial;
-        font-size: 2rem;
-        color: white;
-        writing-mode: sideways-rl;
-        margin: 0rem 0.5rem;
-        letter-spacing: -0.2rem;
-        /*! word-spacing: 1rem; */
-        height: 100%;
-    }
-
-
-    p {
-        text-align: justify;
-    }
-
-    article {
-        padding: 3.5rem;
-}
 
 @media only screen and (max-width:769px){
 /**********************************************************************************************************************************/
